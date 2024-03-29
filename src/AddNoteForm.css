@@ -1,0 +1,45 @@
+/* src/components/NotebookHeader.css */
+.notebook-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.notebook-title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.search-notes-input {
+  margin-top: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px; /* Limit the width of the search bar */
+}
+
+.note-stats {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.add-note-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-note-btn:hover {
+  background-color: #45a049;
+}

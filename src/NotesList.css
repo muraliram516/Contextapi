@@ -1,0 +1,32 @@
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .note-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-title {
+    margin: 0 0 10px 0;
+  }
+  
+  .note-desc {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .note-delete-btn {
+    background: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  

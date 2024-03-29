@@ -1,0 +1,46 @@
+.notebook-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #d3d3d3;
+  }
+  
+  .notebook-title {
+    color: #333;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .notebook-controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .notebook-search {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .notebook-stats {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .notebook-add-btn {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .notebook-add-btn:hover {
+    background-color: #45a049;
+  }
+  
